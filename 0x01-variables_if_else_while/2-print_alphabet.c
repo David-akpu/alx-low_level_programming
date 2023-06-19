@@ -3,8 +3,7 @@
  * main: - Entry point
  * Return: Always (success)
  */
-
-int main (void)
+int main(void)
 {
 	char c;
 
