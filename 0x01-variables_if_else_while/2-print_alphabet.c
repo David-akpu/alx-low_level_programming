@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main: - Print the alphebet
+ * main: - Entry point
  * Return: Always (success)
  */
 
