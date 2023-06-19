@@ -6,8 +6,8 @@
  *
  * Return: Always 0 (Success)
  */
-
-{ 
+int main(void)
+{
 	int n;
 
 	srand(time(0));
@@ -19,8 +19,8 @@
 	else if (n == 0)
 	{
 		printf("%d is zero\n", n);
-	} 
-	else 
+	}
+	else
 	{
 		printf("%d is negative\n", n);
 	}
