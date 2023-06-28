@@ -3,7 +3,7 @@
  * main - prints the sum of all multiples of 3 or 5 up 1024
  * Return: Always 0
  */
-int main(viod)
+int main(void)
 {
 	int i, z = 0;
 
