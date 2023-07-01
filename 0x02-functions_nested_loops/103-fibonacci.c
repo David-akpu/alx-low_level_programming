@@ -14,7 +14,6 @@ int main(void)
 	if (k % 2 == 0)
 	sum += k;
 	j = k - j;
-	++1;
 	}
 	printf("%ld\n", sum);
 	return (0);
