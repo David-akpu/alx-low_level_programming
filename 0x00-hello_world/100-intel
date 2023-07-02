@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S -masm=index $CFILE
+gcc -S -masm=intel $CFILE
