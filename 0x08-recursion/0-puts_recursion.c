@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * _puts_recusion - Print a string followed by a new line
- * @s: the string to print
+ * main: - Entry point
+ * _puts_recusion: - Print a string followed by a new line
+ * @s: The string to print
  * Return: Noting
  */
 void _puts_recursion(char *s)
