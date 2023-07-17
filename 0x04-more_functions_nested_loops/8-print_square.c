@@ -1,19 +1,25 @@
 #include "main.h"
-#include <stdio.h>
 /**
- * print_array - prints n element
- * @a: int to check
- * @n: int to check
- * Return: 0 is success
+ * print_square - prints a square, followed by a new line;
+ * @size: size of the square
  */
-void print_array(int *a, int n)
+void print_square(int size)
 {
-	int x;
+	if (size <= 0)
+	{
+		_putchar('\n');
+	}
+	else
+	{
+		int i, j;
 
-	for (x = 0; x < n; x++)
-		if (x != n - 1)
-			printf("%d, ", a[x]);
-		else
-			printf("%d", a[x]);
-	printf("\n");
+		for (i = 0; i < size; i++)
+		{
+			for (j = 0; j < size; j++)
+			{
+				_putchar('#');
+			}
+			_putchar('\n');
+		}
+	}
 }
